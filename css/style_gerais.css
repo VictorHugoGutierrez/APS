@@ -1,0 +1,107 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dedee9;
+}
+main{
+    width: 920px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header{
+    font-family: sans-serif;
+    background:  blue;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+#cabeçalho{
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 20px;
+}
+/* Navegação */
+#navegacao{
+    height: 50px;
+    margin: 15px;
+}
+/* Formatação de Links */
+.selecionado{
+    background: #39f;
+    border-radius: 20px 40px ;
+}
+nav>span>a:link, nav>span>a:visited{ 
+    color: white;
+    text-decoration:none;
+    font-size: 20px;
+    margin: 5px;
+}
+nav>span>a:hover{
+    background: #39f;
+    border-radius: 20px 40px ;
+}
+section>.plano>.link2:hover{
+    background: rgb(56, 56, 56);
+    text-decoration: none;
+    border-radius: 10px 20px;
+}
+.link2{
+    font-family: sans-serif;
+    color:gray;
+    text-decoration: none; 
+} 
+
+#tt1{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    color: #39f;
+}
+.plano{
+    display: inline-block;
+    margin: 35px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    color: aqua;
+    box-shadow:10px 10px 10px 10px yellow;
+    font-size: 20px;
+}
+
+.conteudo{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    font-family: sans-serif;
+}
+.centralizar{
+    text-align: center;
+}
+.conteudo_rodape{
+    text-align: center;
+    background-color: rgb(180, 180, 180);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#tt1{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    color: #39f;
+}
+.conteudo_text{
+    text-align: justify;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 20px; 
+}
+.titulo_depoimentos{
+    font-size: 20px;
+    text-align: justify;
+}
